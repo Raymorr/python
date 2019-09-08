@@ -2,8 +2,7 @@ import datetime
 def main():
 	name = get_name()
 	age = get_age()
-	year = get_year(age)
-	
+	year = get_year(age)	
 	if year == 0:
 		print ("Error!")
 	else:
